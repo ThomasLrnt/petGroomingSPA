@@ -1,17 +1,31 @@
-import React from 'React';
-import {Route,Switch} from 'react-router-dom';
-import Home from './Home';
-import Article from './Article';
+import React,{Component} from 'react';
+import {Route,Switch,BrowserRouter} from 'react-router-dom';
 import Adresse from './Adresse';
+import Article from './Article';
+import Home from './Home';
 import Gallerie from './Gallerie';
-import NotFound from './NotFound'
+import MonHeader from '../components/monHeader';
 
-export default () => (
-    <switch>
-        <route path="/" exact component={Home}></route>
-        <route path="/article" exact component={Article}></route>
-        <route path="/adresse" exact component={Adresse}></route>
-        <route path="/gallerie" exact component={Gallerie}></route>
-        <route component={NotFound}></route>
-    </switch>
-)
+
+class Routeur extends Component {
+
+    constructor(props){
+        super(props);
+    } 
+
+    render () {
+        return(
+        <BrowserRouter>
+            <MonHeader />
+            <Switch>
+                <Route path="/" exact component={Home}></Route>
+                <Route path="/article" exact component={Article}></Route>
+                <Route path="/gallerie" exact component={Gallerie}></Route>
+                <Route path="/adresse" exact component={Adresse}></Route>
+            </Switch>
+        </BrowserRouter>
+        );
+    } 
+}
+
+export default Routeur;

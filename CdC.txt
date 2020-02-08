@@ -15,7 +15,7 @@ Il a déjà répertorié plusieurs éléments obligatoires à mettre dans sa pag
 
 Voici pour la liste des besoins fonctionnels, passons maintenant aux détails techniques. 
 - Pour la galerie de photos, tu devras appeler une api pour récupérer les urls des images et les afficher 
-    (! pas d'url d'image cod�e en dur ! à chaque refresh de page de nouvelles images apparaissent). 
+    (! pas d'url d'image codé e en dur ! à chaque refresh de page de nouvelles images apparaissent). 
     Voici le lien https://thecatapi.com/ où tu trouveras toute la documentation 
     (tu devras t'inscrire pour demander une clé d'api).
 - Tu dois créer au moins 3 composants react que tu utiliseras dans ta page
