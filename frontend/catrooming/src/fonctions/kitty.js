@@ -24,8 +24,8 @@ class Kitty extends React.Component{
         {
         src: parsedJSON[0].url,
         thumbnail: parsedJSON[0].url,
-        thumbnailWidth: 320,
-        thumbnailHeight: 174,
+        thumbnailWidth: parsedJSON[0].width,
+        thumbnailHeight: parsedJSON[0].height,
         isSelected: false,
        }) 
       }))
@@ -35,9 +35,13 @@ class Kitty extends React.Component{
 
   render(){
     return(
-      <div class="gallerie">
-                <Gallery images={this.state.kitties}/>                
-                <Button variant="secondary" onClick={this.componentDidMount}> Encore ? </Button>            
+      <div>
+        <div class="gallerie">
+                  <Gallery images={this.state.kitties}/>                     
+        </div>
+        <div>
+        <Button variant="secondary" onClick={this.componentDidMount}> Encore ? </Button> 
+        </div>
       </div>
     )
   }

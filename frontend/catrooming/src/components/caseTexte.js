@@ -5,8 +5,8 @@ class CaseTexte extends Component {
  
     render (){
         return (
-            <div>
-                <Card>
+            <div class="txt">
+                <Card >
                     <Card.Header>{this.props.Id}</Card.Header>
                     <Card.Body>
                         <Card.Title>{this.props.Titre}</Card.Title>

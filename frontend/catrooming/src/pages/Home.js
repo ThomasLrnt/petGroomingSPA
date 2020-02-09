@@ -1,13 +1,13 @@
 import React from 'react';
 import CaseTexte from '../components/caseTexte';
-import {Table} from 'react-bootstrap';
+import {Table,Container,Row,Col} from 'react-bootstrap';
 
 class Home extends React.Component {
     
     render() {
         return (
-            <div class="container">
-
+            <Container>
+                <Row>
                 <CaseTexte 
                     Id="Un salon au petit soin pour votre chat !"
                     Titre="Qui sommes nous ?"
@@ -22,7 +22,8 @@ class Home extends React.Component {
                     Lien="/Article"
                     Boutton="En savoir plus"
                 />
-            </div>
+                </Row>
+            </Container>
         );
     }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Table} from 'react-bootstrap';
 import Plan from '../ressources/map.JPG';
-import {Tabs,Tab,Container,Row,Col} from 'react-bootstrap';
+import {Tabs,Tab,Container,Row,Col,Button} from 'react-bootstrap';
 
 class Informations extends React.Component {
     render() {
@@ -73,6 +73,7 @@ class Informations extends React.Component {
                                 <p>75015 Paris</p>
                                 <p>proche du métro Bir Hackeim</p><br></br>
                             <p>Du lundi au vendredi de 9h à 20h, et le weekend sur rendez-vous</p><br></br>
+                            <Button variant="secondary" href="/">Retour</Button>
                         </Col>
                         <Col>
                             <img id="plan" src={Plan} alt="Plan"/>
