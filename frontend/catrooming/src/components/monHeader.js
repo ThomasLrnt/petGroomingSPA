@@ -14,6 +14,7 @@ class MonHeader extends Component {
     render (){
         return (
             <div id="containerHeader">
+                <LogoHeader />
                 <div>
                     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                         <Navbar.Brand href="/">Accueil</Navbar.Brand>
@@ -27,7 +28,6 @@ class MonHeader extends Component {
                         </Navbar.Collapse>
                     </Navbar>
                 </div>
-                <LogoHeader />
             </div>
         );
     }
