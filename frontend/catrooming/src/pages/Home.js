@@ -3,15 +3,16 @@ import CaseTexte from '../components/caseTexte';
 import {Table} from 'react-bootstrap';
 
 class Home extends React.Component {
+    
     render() {
         return (
             <div class="container">
 
                 <CaseTexte 
-                    Id="Un salon de toilletage hors du commun"
+                    Id="Un salon au petit soin pour votre chat !"
                     Titre="Qui sommes nous ?"
-                    Texte="Un salon de toilettage hors du commun implanté au plein coeur des beaux quartiers de paris. Comment ne pas craquer pour ce photos et venir nous rendre visite ?"
-                    Lien="/Adresse"
+                    Texte="Un salon de toilettage insolite situé au 37 quai de Grenelle, à quelques pas de la tour Eiffel. Ce que nous recherchons avant tout, c'est le bien-être animal. C'est pour ça que notre établissement spécialisé dans les soins félins accueille les chats pour leur apporter le nécessaire à leur confort."
+                    Lien="/Informations"
                     Boutton="En savoir plus"
                 />
                 <CaseTexte 
