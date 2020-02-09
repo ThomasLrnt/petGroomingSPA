@@ -14,8 +14,8 @@ class MonHeader extends Component {
     render (){
         return (
             <div id="containerHeader">
-                <LogoHeader />
-                <div>
+                <LogoHeader id="nav" />
+                <div >
                     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                         <Navbar.Brand href="/">Accueil</Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
