@@ -5,6 +5,7 @@ import Article from './Article';
 import Home from './Home';
 import Gallerie from './Gallerie';
 import MonHeader from '../components/monHeader';
+import MonFooter from '../components/monFooter';
 
 
 class Routeur extends Component {
@@ -23,6 +24,7 @@ class Routeur extends Component {
                 <Route path="/gallerie" exact component={Gallerie}></Route>
                 <Route path="/adresse" exact component={Adresse}></Route>
             </Switch>
+            <MonFooter />
         </BrowserRouter>
         );
     } 

@@ -13,7 +13,7 @@ class CaseTexte extends Component {
                         <Card.Text>
                             {this.props.Texte}
                         </Card.Text>
-                        <Button variant="secondary" href={this.props.Lien}>En savoir plus</Button>
+                        <Button variant="secondary" href={this.props.Lien}>{this.props.Boutton}</Button>
                     </Card.Body>
                     </Card>
             </div>

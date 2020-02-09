@@ -3,7 +3,6 @@ import {Navbar,Nav} from 'react-bootstrap';
 import {withRouter} from 'react-router-dom';
 import catHeader from '../ressources/catHeader.jpg';
 import LogoHeader from '../fonctions/logoHeader';
-//import {LogoHeader} from '../fonctions/logoHeader';
 
 class MonHeader extends Component {
 
