@@ -29,8 +29,7 @@ https://petgroomingdeploy.herokuapp.com/
 
 ## Auteur
 
-* **Thomas LAURENT** - *Initial work*
-Avec une forte aide de la documentation de 
+* **Thomas LAURENT**
 
 ## Remerciements
 Le travail à été réalisé avec un fort appuie sur la documentation de ReactBootstrap 
