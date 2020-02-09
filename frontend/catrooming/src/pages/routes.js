@@ -4,6 +4,7 @@ import Adresse from './Adresse';
 import Article from './Article';
 import Home from './Home';
 import Gallerie from './Gallerie';
+import Informations from './informations';
 import MonHeader from '../components/monHeader';
 import MonFooter from '../components/monFooter';
 
@@ -19,10 +20,11 @@ class Routeur extends Component {
         <BrowserRouter>
             <MonHeader />
             <Switch>
-                <Route path="/" exact component={Home}></Route>
+            <Route path="/" exact component={Home}></Route>
                 <Route path="/article" exact component={Article}></Route>
                 <Route path="/gallerie" exact component={Gallerie}></Route>
                 <Route path="/adresse" exact component={Adresse}></Route>
+                <Route path="/informations" exact component={Informations}></Route>
             </Switch>
             <MonFooter />
         </BrowserRouter>

@@ -23,6 +23,7 @@ class MonHeader extends Component {
                             <Nav>
                                 <Nav.Link href="/gallerie">Nos plus jolies photos</Nav.Link>
                                 <Nav.Link href="/article">Article</Nav.Link>
+                                <Nav.Link href="/informations">Informations</Nav.Link>
                                 <Nav.Link href="/adresse">Contactez-nous !</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
